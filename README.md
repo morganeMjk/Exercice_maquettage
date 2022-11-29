@@ -1,3 +1,3 @@
-# Exercice sur le maquettage
+# Exercice maquettage
 
-Transformation de la maquette en page html
+Transformation du mockup en page html
