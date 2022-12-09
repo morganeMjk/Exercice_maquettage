@@ -1,0 +1,26 @@
+.nav {
+    background-color: aliceblue;
+    height: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo {
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 40px;
+    }
+
+    &__bouton {
+        height: 15px;
+        width: 60px;
+        margin-right: 40px;
+        font-size: 10px;
+        background-color: #0D6EFD;
+        border-radius: 30px;
+        border: none;
+        color: white;
+    }
+}

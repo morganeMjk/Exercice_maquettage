@@ -1,0 +1,131 @@
+.nav {
+  background-color: aliceblue;
+  height: 30px;
+  margin-top: 0px;
+  padding-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__logo {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+.nav__bouton {
+  height: 15px;
+  width: 60px;
+  margin-right: 40px;
+  font-size: 10px;
+  background-color: #0D6EFD;
+  border-radius: 30px;
+  border: none;
+  color: white;
+}
+
+.header {
+  margin: 40px 0px;
+}
+.header__titre {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 0px 40px;
+}
+.header__input {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.header__input__mail {
+  width: 154px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  font-size: 12px;
+}
+.header__input__bouton {
+  background-color: #0D6EFD;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  width: 57px;
+  font-family: 12px;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+}
+.articles__box {
+  background-color: rgba(217, 217, 217, 0.6784313725);
+  width: 301px;
+  height: 80px;
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px grey;
+}
+.articles__box__texte {
+  text-align: center;
+  width: 70%;
+}
+.articles__box__texte__titre {
+  font-size: 14px;
+}
+.articles__box__texte__p {
+  font-size: 10px;
+}
+.articles__box__logo {
+  font-size: 39px;
+  color: #0D6EFD;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../image/fond.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact {
+  margin-top: 30px;
+}
+.contact__titre {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.contact__formulaire {
+  width: 181px;
+  height: 240px;
+  margin: auto;
+  background-color: #ECECEC;
+  border-radius: 5px;
+  padding: 20px;
+}
+.contact__formulaire__input {
+  width: 123px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */

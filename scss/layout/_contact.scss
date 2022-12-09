@@ -1,0 +1,30 @@
+.contact {
+    margin-top: 30px;
+
+        &__titre {
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        &__formulaire {
+            width: 181px;
+            height: 240px;
+            margin: auto;
+            background-color: #ECECEC;
+            border-radius: 5px;
+            padding: 20px;
+
+                &__input {
+                    width: 123px;
+                }
+        }
+
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    border: none;
+}

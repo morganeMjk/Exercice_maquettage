@@ -1,0 +1,36 @@
+.header {
+    margin: 40px 0px;
+        &__titre {
+            text-align: center;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            padding: 0px 40px;
+        }
+
+        &__input {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+                &__mail {
+                    width: 154px;
+                    border-radius: 20px;
+                    border: none;
+                    text-align: center;
+                    font-size: 12px;
+                }
+
+                &__bouton {
+                    background-color: #0D6EFD;
+                    border: none;
+                    color: white;
+                    border-radius: 10px;
+                    width: 57px;
+                    font-family: 12px;
+                }
+        }
+}
