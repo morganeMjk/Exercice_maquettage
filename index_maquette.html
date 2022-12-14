@@ -46,27 +46,31 @@
         </div>
         <section class="contact">
             <h2 class="contact__titre">Contact us</h2>
-            <form method="post" action="traintement.php" class="contact__formulaire">
-                <fieldset>
+            <form method="post" action="traintement.php">
+                <fieldset class="contact__formulaire">
                     <input type="text" name="firstname" id="firstname" placeholder="Firstname" class="contact__formulaire__input">
                     <input type="text" name="lastname" id="lastname" placeholder="Lastname" class="contact__formulaire__input">
                     <input type="email" name="email" id="email" placeholder="Email address" class="contact__formulaire__input">
                     <input type="tel" name="phone" id="phone" placeholder="Phone number" maxlength="10" class="contact__formulaire__input">
-                    <input type="text" name="message" id="message" placeholder="Type your message" class="contact__formulaire__input">
-                    <button type="button" class="contact__formulaire__input">Submit</button>
+                    <textarea name="message" id="message" cols="18" rows="8" placeholder="Type your message" class="contact__formulaire__input"></textarea>
+                    <button type="button" class="contact__formulaire__submit">Submit</button>
                 </fieldset>
             </form>
         </section>
     </main>
 
-    <footer>
-        <ul>
-            <li><a href="#">About</a> - </li>
-            <li><a href="#">Contact</a> - </li>
-            <li><a href="#">Terms of Use</a> - </li>
-            <li><a href="#">Privacy Policy</a></li>
+    <footer class="footer">
+        <ul class="footer__ul">
+            <li class="footer__ul__li"><a href="#" class="footer__ul__a">About</a> - </li>
+            <li class="footer__ul__li"><a href="#" class="footer__ul__a"> Contact</a> - </li>
+            <li class="footer__ul__li"><a href="#" class="footer__ul__a"> Terms of Use</a> - </li>
+            <li class="footer__ul__li"><a href="#" class="footer__ul__a"> Privacy Policy</a></li>
         </ul>
-        <p>My website 2022 - All rights reserved</p>
+        <div class="footer__rights">
+            <p class="footer__rights__p">My website 2022</p>
+            <p class="footer__rights__p separation">-</p>
+            <p class="footer__rights__p">All rights reserved</p>
+        </div>
     </footer>
 </body>
 </html>

@@ -16,6 +16,10 @@
             border-radius: 5px;
             box-shadow: 2px 2px 2px grey;
 
+                &__logo {
+                    font-size : 40px;
+                }
+
                 &__texte{ 
                     text-align: center;
                     width: 70%;
@@ -23,13 +27,9 @@
                     &__titre {
                         font-size: 14px;
                     }
-                    &__p {
-                        font-size: 10px;
-                    }
                 }
 
                 &__logo {
-                    font-size: 39px;
                     color : #0D6EFD; 
                 }
 

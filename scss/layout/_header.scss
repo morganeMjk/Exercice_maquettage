@@ -3,11 +3,11 @@
         &__titre {
             text-align: center;
             color: white;
-            font-size: 15px;
             font-weight: bold;
             display: flex;
             align-items: center;
             padding: 0px 40px;
+            font-size: 15px;
         }
 
         &__input {
@@ -16,7 +16,7 @@
             justify-content: center;
             gap: 20px;
             font-size: 12px;
-
+            
                 &__mail {
                     width: 154px;
                     border-radius: 20px;

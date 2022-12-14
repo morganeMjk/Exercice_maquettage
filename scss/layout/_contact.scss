@@ -3,28 +3,47 @@
 
         &__titre {
             text-align: center;
-            font-size: 15px;
             font-weight: bold;
         }
+
         &__formulaire {
             width: 181px;
             height: 240px;
             margin: auto;
-            background-color: #ECECEC;
-            border-radius: 5px;
-            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            padding-top: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            border: none;
 
                 &__input {
                     width: 123px;
+                    background-color: #ECECEC;
+                    border: 1px solid #B1B1B1;
+                    border-radius: 60px;
+                    padding-left: 15px;
+                    font-size: 10px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+
+                &__submit {
+                background-color: #0D6EFD;
+                border: none;
+                color: white;
+                border-radius: 60px;
+                width: 43px;
+                text-align: center;
+                align-self: flex-end;
+                font-size: 10px;
                 }
         }
-
 }
 
-fieldset {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    border: none;
+#message {
+    border-radius: 10px;
+    height: 101px;
+    resize: none;
 }
