@@ -8,3 +8,10 @@ body {
     background-size: cover;
     font-size: 10px;
 }
+
+
+@media  screen and (min-width: 1280px) {
+body {
+    background-image: none;
+}
+}

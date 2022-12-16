@@ -29,10 +29,47 @@
 
         &__p {
             margin: 0px;
+        
+            &--active {
+                display: none;
+            }
         }
     }
 }
 
-.separation {
-    display: none;
+
+@media  screen and (min-width: 481px) {
+.footer {
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    &__ul {
+        padding-left: 0px;
+    }
+
+    &__rights {
+        flex-direction: row;
+        padding-right: 0px;
+        gap: 4px;
+    }
+}
+
+.footer__rights__p--active {
+    display: contents;
+}
+
+
+}
+
+
+@media  screen and (min-width: 1280px) {
+.footer {
+    align-items: flex-start;
+    padding-left: 100px;
+    height: 70px;
+    justify-content: center;
+    font-size: 10px;
+}
 }
